@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>audio player by OMKAR</title>
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+    <header>
+
+        <a href="index.html">
+            <div class="logo"><img src="images/logo.png" alt="Music_Player_logo" width="150px"></div>
+        </a>
+        <div class="btns"><button id="btnsignup">Signup</button> <button id="btnlogin">Login</button></div>
+
+    </header>
+    <main>
+
+        <div class="side">
+
+            <div class="search_container"><input type="text" id="searchBox" placeholder="Enter Song Name..."><button
+                    id="searchBtn">Search</button></div>
+          <div class="nav"> <ul>
+    <li> <a href=""> Home </a></li>
+    <li> <a href=""> About </a></li>
+    <li> <a href=""> Contact </a></li>
+</ul>
+</div> 
+            <div class="player">
+
+                <div class="image"><img src="images/bg1.jpg" alt="banner" width="120px"></div>
+                <div class="range"><input type="range" name="range" id="range" min="0" value="0" max="100"></div>
+                <div class="details">
+                    <h3 id="songName"></h3>
+                    <p id="songArtist"></p>
+                </div>
+                <div class="btns"><img src="images/previous_button.png"
+                        style="background-color: white; border-radius: 50%;" id="prevBtn" width="25px" alt="prevbtnpic">
+                    <img src="images/play_button.png" style="background-color: white; border-radius: 50%;" id="playBtn"
+                        width="25px" alt="playBtnpic">
+                    <img src="images/next_button.png" style="background-color: white; border-radius: 50%;" id="nextBtn"
+                        width="25px" alt="nextBtnpic">
+                </div>
+
+            </div>
+
+
+        </div>
+
+        <div class="container">
+
+            <section class="popular">
+                <h1 style="color:white; margin:20px; ">FAV Songs</h1>
+                <div class="hit_container">
+                    <div class="box" id="0">
+                        <img src="images/triAda.jpg" alt="banner" width="120px">
+                        <h1 class="songHeading">Most Played</h1>
+                    </div>
+                    <div class="box" id="1">
+                        <img src="images/janib.jpg" alt="banner" width="120px">
+                        <h1 class="songHeading">numb</h1>
+                    </div>
+                    <div class="box" id="2">
+                        <img src="images/dhaagonse.png" alt="banner" width="120px">
+                        <h1 class="songHeading">hype</h1>
+                    </div>
+
+                    <div class="box" id="3">
+                        <img src="images/kesariya.jpg" alt="banner" width="120px">
+                        <h1 class="songHeading">3 am</h1>
+                    </div>
+                    <div class="box" id="4">
+                        <img src="images/deva.jpg" alt="banner" width="120px">
+                        <h1 class="songHeading">gym</h1>
+                    </div>
+                </div>
+            </section>
+
+            <section class="mood">
+                <h1 style="color:white; margin:20px; ">MOOD :)</h1>
+                <div class="hit_container">
+                    <div class="box" id="5">
+                        <img src="images/channaVe.jpg" alt="banner" width="120px">
+                        <h1 class="songHeading">weeb</h1>
+                    </div>
+                    <div class="box" id="6">
+                        <img src="images/humdard.jpg" alt="banner" width="120px">
+                        <h1 class="songHeading">dream</h1>
+                    </div>
+                    <div class="box" id="7">
+                        <img src="images/Tera-Fitoor.jpg" alt="banner" width="120px">
+                        <h1 class="songHeading"> cloud</h1>
+                    </div>
+
+                    <div class="box" id="8">
+                        <img src="images/Rait-Zara-Si.jpg" alt="banner" width="120px">
+                        <h1 class="songHeading">ash</h1>
+                    </div>
+                    <div class="box" id="9">
+                        <img src="images/mere yaara.jpg" alt="banner" width="120px">
+                        <h1 class="songHeading">poool</h1>
+                    </div>
+                </div>
+            </section>
+
+            <section class="latest">
+                <h1 style="color:white; margin:20px; ">latest</h1>
+                <div class="hit_container">
+                    <div class="box" id="10">
+                        <img src="images/mashup.jpg" alt="banner" width="120px">
+                        <h1 class="songHeading">up</h1>
+                    </div>
+                    <div class="box" id="11">
+                        <img src="images/Paakhi.jpg" alt="banner" width="120px" height="110px">
+                        <h1 class="songHeading">6922</h1>
+                    </div>
+                    <div class="box" id="12">
+                        <img src="images/Mashups.jpg" alt="banner" width="120px">
+                        <h1 class="songHeading">heaven parody</h1>
+                    </div>
+
+                    <div class="box" id="13">
+                        <img src="images/aaj dil.jpg" alt="banner" width="120px">
+                        <h1 class="songHeading">rip</h1>
+                    </div>
+                    <div class="box" id="14">
+                        <img src="images/loveMashup.jpg" alt="banner" width="120px">
+                        <h1 class="songHeading">beat box</h1>
+                    </div>
+                </div>
+            </section>
+            <section class="latest">
+                <h1 style="color:white; margin:20px; ">back to time</h1>
+                <div class="hit_container">
+                    <div class="box" id="15">
+                        <img src="images/jubin Nautiyal.jpg" alt="banner" width="120px">
+                        <h1 class="songHeading">falling in love</h1>
+                    </div>
+                    <div class="box" id="16">
+                        <img src="images/arjit.jpg" alt="banner" width="120px">
+                        <h1 class="songHeading">heartbreak</h1>
+                    </div>
+                    <div class="box" id="17">
+                        <img src="images/honey.jpg" alt="banner" width="120px">
+                        <h1 class="songHeading">getting over</h1>
+                    </div>
+
+                    <div class="box" id="18">
+                        <img src="images/darshan.jpg" alt="banner" width="120px" height="120px">
+                        <h1 class="songHeading">gym hype</h1>
+                    </div>
+                    <div class="box" id="19">
+                        <img src="images/neha.jpg" alt="banner" width="120px">
+                        <h1 class="songHeading">long drive</h1>
+                    </div>
+                </div>
+            </section>
+
+        </div>
+
+    </main>
+    <footer>
+       made for educational purpose by OMKAR
+    </footer>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
